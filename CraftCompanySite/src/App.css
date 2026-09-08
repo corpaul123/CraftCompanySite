@@ -1,19 +1,25 @@
 /* Add Stylesheet Info Later */
 
 .hero-section{
-  /*add later*/
+  background-color: #e8f0e3;
+  min-height: 450 px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-content{
-/* to be added*/
+  max-width: 700px;
 }
 
 .title{
-/* to be added*/
+font-size: 48px;
 }
 
 .tagline{
-/* to be added*/
+  font-size: 24px;
+  font-weight:bold;
 }
 
 .topnav{
