@@ -1,12 +1,13 @@
 import './App.css'
+import { Link } from 'react-router-dom'
 
 function App(){
   return (
     <main>
         <div className="topnav">
-          <a className="active" href="#home">Home</a>
-          <a href="#shop">Shop</a>
-          <a href="#about">About</a>
+          <Link className="active" href="#home">Home</Link>
+          <Link to="/shop">Shop</Link>
+          <Link to="/about">About</Link>
         </div>
 
       <section className="hero-section">
